@@ -1,1 +1,3 @@
 # Pharmahacks2026
+Challenge 2: Compound-Target Binding Affinity, Advanced (Sponsored by Molecular Forecaster Inc.)
+Given a drug compound and a protein target, can you predict how strongly they'll bind? This challenge provides around ~421K drug-target interactions with experimental pIC50 measurements. A part of which will be held out as a test set and released on Sunday. You'll need to decide how to encode both SMILES strings and amino acid sequences into meaningful representations, then train a single protein-agnostic model that generalizes across targets. Your model will be evaluated on four test splits: warm, cold compound, cold target, and full cold, so generalizability is key.
